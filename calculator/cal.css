@@ -1,0 +1,127 @@
+*{
+    background-color: black;
+   
+}
+
+#mi{
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow:10px 10px 40px #e23be2;
+    font-size: 64px;
+    width: 310px;
+    border: 2px dotted purple;
+  font-family: serif;
+  font-style: italic;
+  animation: h 2.5s infinite;
+
+
+}
+
+legend{
+    color:#fff;
+    font-size: 22px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+     
+}
+fieldset{ 
+  height:120px;
+  width: 320px;
+  margin: auto;
+  border: 2px dotted #e23be2;
+  box-shadow: 0 0 60px purple;
+  color:whitesmoke ;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 62px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  animation: h 2.5s infinite;
+
+}
+
+#mb{
+    text-align: center;
+    font-size: 32px;
+    height: 100px;
+    width: 100px;
+    border: 2px dotted #e23be2;
+    color: white;
+    background-color: black;
+    animation: bt 2.5s infinite;
+    
+  }
+#mb2{
+    height: 100px;
+    width:204px ;
+  border: dotted #e23be2;
+  
+  color:whitesmoke ;
+  border: 2px dotted #e23be2;
+  background-color: black;
+  animation: bt 2.5s infinite;
+  text-align: center;
+  font-size: 32px;
+
+}
+
+#b1{
+    height: 400px;
+    width: 412px;
+    margin: auto;
+    border: 2px pink ;
+    background-color: black;
+  }
+
+  @keyframes bt{
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    box-shadow: 
+      0 0 53px purple;
+     
+      text-shadow: 
+      0 0 18px #fff,
+      0 0 22px #fff,
+      0 0 25px aqua,
+      0 0 53px aqua,
+      0 0 57px rgb(5, 5, 230),
+      0 0 100px aqua,
+      0 0 150px aqua; 
+  
+  }
+  20%,24%, 55%{
+  
+    box-shadow: none; 
+     text-shadow: none;
+  }
+  }
+  @keyframes h{
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    box-shadow: 
+      0 0 53px purple;
+     
+      text-shadow: 
+      /* 0 0 0px #fff, */
+      0 0 18px #fff,
+      0 0 22px #fff,
+      0 0 25px aqua,
+      0 0 53px aqua,
+      0 0 57px rgb(5, 5, 230),
+      0 0 100px aqua,
+      0 0 150px aqua; 
+  
+  }
+  20%,24%, 55%{
+
+    box-shadow: none; 
+     text-shadow: none;
+  }
+  }
+  #mb:hover{
+    background-color: black;
+    color: #e23be2;
+    text-shadow: 0 0 20px purple;
+  
+  }
